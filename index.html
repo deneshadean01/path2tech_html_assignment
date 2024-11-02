@@ -5,7 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Project</title>
 </head>
+
 <body>
+  <nav>
+    <a href="Home">Home</a>
+    <a href="About">About</a>
+    <a href="Contact">Contact</a>
+  </nav>
+
+  <h1>IT Team Members</h1>
+  <h2>Add New Member</h2>
+
+  <div id = "form">
+    <form method = "post">
+
+      First Name: 
+      <br><input type="text" placeholder="Sir"><br><br>
+
+      Last Name: 
+      <br><input type="text" placeholder="Williams"><br><br>
+
+      Role: 
+      <br><select name="position">
+        <option value="1">Very Important Employee</option>
+        <option value="2">Moderately Important Employee</option>
+        <option value="3">Employee</option>
+        <option value="4">Needs Major Improvement</option>
+      </select><br><br>
+
+      Email: 
+      <br><input type="text" placeholder="sirwilliams@vie.com"><br><br>
+      
+      <button type ="button">Add Member</button>
+      
+    </form>
+
+  <h2>Team Members</h2>
+  <div id = "table">
+    <table border = "1">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Role</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+      </tr>
   
+    </table>
+  </div>
+
 </body>
 </html>
